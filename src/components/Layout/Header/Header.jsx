@@ -8,11 +8,6 @@ function Header() {
                     <i className="fas fa-home"></i>
                     <span>Mi App</span>
                 </div>
-                <ul className={styles.navLinks}>
-                    <li><a href="/">Inicio</a></li>
-                    <li><a href="/about">Acerca de</a></li>
-                    <li><a href="/contact">Contacto</a></li>
-                </ul>
             </nav>
             <div className="header-top">
             <h1>
@@ -24,26 +19,14 @@ function Header() {
             </form>
             </div>
             <nav>
-            <ul className="nav-list">
-                <li>
-                <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                <a href="#">Login</a>
-                </li>
-                <li>
-                <a href="./registro.html">Registro</a>
-                </li>
-                <li>
-                <a href="./productos.html">Productos</a>
-                </li>
-                <li>
-                <a href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                <a href="./carrito.html">Carrito</a>
-                </li>
-            </ul>
+                <ul className={styles.navLinks}>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/productos">Productos</a></li>
+                    <li><a href="/contacto">Contacto</a></li>
+                    <li><a href="/login" className={styles.loginBtn}>
+                        <i className="fas fa-user"></i> Login
+                    </a></li>
+                </ul>
             </nav>
         </header>
     );
