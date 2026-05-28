@@ -1,0 +1,92 @@
+.footer {
+    background-color: #333;
+    color: rgb(238, 187, 225);
+    padding: 2rem 1rem;
+    margin-top: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul {
+display: flex;
+gap: 30px;
+list-style: none;
+padding: 0;
+margin: 20px 0 0 0;
+font-size: 1.1rem;
+flex-wrap: wrap;
+}
+
+.nav aside p {
+    font-size: 0.9rem;
+    color: #cf36ee;
+    margin: 0;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.navLinks a:hover {
+    color: #61dafb;
+    background-color: rgba(97, 218, 251, 0.1);
+}
+
+.footer p {
+    margin: 0.5rem 0;
+    color: #aaa;
+}
+
+.iconos {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.iconos i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.iconos i:hover {
+    color: #b929a6;
+    transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navLinks {
+        gap: 1rem;
+    }
+    
+    .iconos {
+        font-size: 1.3rem;
+        gap: 1rem;
+    }
+}

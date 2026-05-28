@@ -1,0 +1,24 @@
+.reg {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+    margin: 50px auto;   
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;    
+
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+.reg label {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+.reg input, button {
+    padding: 10px;
+    font-size: 1rem;
+}

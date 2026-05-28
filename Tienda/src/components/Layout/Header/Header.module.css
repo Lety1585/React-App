@@ -1,0 +1,107 @@
+.header {
+    background-color: #f1cae6;
+    color: white;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 100px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+.logo{
+    border-radius: 50vw;
+    color: rgb(70, 4, 88);
+    font-size: 36px; 
+    font-style: oblique; 
+    font-weight: bold;
+    background-color: none;
+    cursor: pointer;
+}
+
+.buscador {
+    position: absolute;
+    left: 50%;
+    transform: translateX(70%);
+    display: flex;
+    gap: 8px;
+}
+
+.buscador input {
+    padding: 8px 20px;
+    border: 4px solid #b929a6;
+    border-radius: 6px;
+}
+
+.buscador button {
+    padding: 6px 12px;
+    background-color: #b929a6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    background-color: #be9fbd;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.navLinks a:hover {
+    color: #61dafb;
+}
+
+.nav-list {
+    font-size: x-large;
+    list-style: none;
+    padding: 20;
+    margin: 20;
+    display: inline-flex;
+    gap: 60px;
+}
+
+.nav-list a {
+    color: rgb(237, 9, 188);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #82929d;
+}
