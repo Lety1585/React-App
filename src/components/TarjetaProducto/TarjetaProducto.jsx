@@ -1,6 +1,6 @@
 import styles from './TarjetaProducto.module.css';
 
-export default function TarjetaProducto({ imagen, nombre, descripcion, precio, id }) {
+export default function TarjetaProducto({ imagen, nombre, descripcion, precio }) {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>

@@ -1,13 +1,14 @@
 import './App.css'
 import Inicio from './components/Paginas/Inicio/Inicio'
 import Layout from './components/Layout/Layout'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import Contenedor from './components/Layout/Contenedor'
 
 function App() {
   return (
     <Layout>
-      <Inicio />
-      <ItemListContainer greeting="Todos nuestros productos" />
+      <Contenedor>
+      <Inicio></Inicio>
+    </Contenedor>
     </Layout>
   );
 }

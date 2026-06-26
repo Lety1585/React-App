@@ -1,6 +1,6 @@
 import styles from './Item.module.css';
 
-export default function Item({ id, nombre, imagen, descripcion, precio }) {
+export default function Item({ nombre, imagen, descripcion, precio }) {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>

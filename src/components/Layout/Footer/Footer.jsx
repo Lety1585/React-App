@@ -8,11 +8,11 @@ function Footer() {
                 <p>Al navegar por este sitio aceptás el uso de cookies para agilizar tu experiencia de compra.</p> 
             </aside>
                 <p><strong><em>Todos los derechos reservados</em></strong></p> 
-            <nav class="iconos">
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <nav className="iconos">
+                <i className="fab fa-instagram"></i>
+                <i className="fab fa-facebook-square"></i>
+                <i className="fab fa-twitter"></i>
+                <i className="fab fa-whatsapp" aria-hidden="true"></i>
             </nav>
             </nav>
         </footer>
