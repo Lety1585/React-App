@@ -8,7 +8,7 @@
     width: 25%;
     gap: 20px;
     transition: background-color 0.3s;
-    background-image: url('../img/fondo_prod.jpg');
+    background-image: url('/imagen/fondo_prod.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -53,4 +53,19 @@
   .imageContainer {
     height: 200px;
   }
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #b929a6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b092ac;
 }

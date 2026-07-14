@@ -109,3 +109,18 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* Responsive */
+@media (max-width: 480px) {
+  .imageContainer {
+    height: 200px;
+  }
+
+  .nombre {
+    font-size: 1.3rem;
+  }
+
+  .price {
+    font-size: 1.5rem;
+  }
+}

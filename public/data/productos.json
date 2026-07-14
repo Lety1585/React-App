@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Sticker Sagi",
+        "imagen": "/imagen/sagitario.png",
+        "descripcion": "Plancha de stickers de Sagitario",
+        "precio": "1000",
+        "disponible": true
+    },
+    {
+        "id": 2,
+        "nombre": "Remera Leo",
+        "imagen": "/imagen/leo.png",
+        "descripcion": "Remera mujer con diseño de Leo",
+        "precio": "19000",
+        "disponible": true
+    },
+    {
+        "id": 3,
+        "nombre": "Tote Capri",
+        "imagen": "/imagen/capricornio.png",
+        "descripcion": "Tote bag de tela de Capricornio",
+        "precio": "9000",
+        "disponible": true
+    },
+    {
+        "id": 4,
+        "nombre": "Sticker Aries",
+        "imagen": "/imagen/aries.png",
+        "descripcion": "Plancha de stickers",
+        "precio": "4000",
+        "disponible": false
+    },
+    {
+        "id": 5,
+        "nombre": "Tote Tauro",
+        "imagen": "/imagen/tauro.png",
+        "descripcion": "Tote bag de tela",
+        "precio": "7000",
+        "disponible": false
+    },
+    {
+        "id": 6,
+        "nombre": "Tote Géminis",
+        "imagen": "/imagen/geminis.png",
+        "descripcion": "Tote bag de tela",
+        "precio": "12000",
+        "disponible": false
+    }
+] 
