@@ -22,7 +22,7 @@ export function Item({ id, nombre, imagen, descripcion, precio, stock }) {
   };
 
   const verDetalle = () => {
-    alert(`Estas viendo ${nombre}`);
+    //alert(`Estas viendo ${nombre}`);
   };
 
   const marcarComoFavorito = () => {
